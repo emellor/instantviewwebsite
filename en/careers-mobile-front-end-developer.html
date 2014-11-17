@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+
+    <title>Careers Instantview</title>
+
+    <!-- Meta   -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+
+    <!-- CSS Page Style -->    
+    <link rel="stylesheet" href="assets/css/pages/page_job_inner1.css">
+
+    <!-- CSS Theme -->    
+    <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head> 
+
+<body>
+<!--=== Style Switcher  ===-->    
+<i class="style-switcher-btn fa fa-cogs hidden-xs"></i>
+<div class="style-switcher animated fadeInRight">
+    <div class="theme-close"><i class="icon-close"></i></div>
+    <div class="theme-heading">Theme Colors</div>
+    <ul class="list-unstyled">
+        <li class="theme-default theme-active" data-style="default" data-header="light"></li>
+        <li class="theme-blue" data-style="blue" data-header="light"></li>
+        <li class="theme-orange" data-style="orange" data-header="light"></li>
+        <li class="theme-red" data-style="red" data-header="light"></li>
+        <li class="theme-light last" data-style="light" data-header="light"></li>
+
+        <li class="theme-purple" data-style="purple" data-header="light"></li>
+        <li class="theme-aqua" data-style="aqua" data-header="light"></li>
+        <li class="theme-brown" data-style="brown" data-header="light"></li>
+        <li class="theme-dark-blue" data-style="dark-blue" data-header="light"></li>
+        <li class="theme-light-green last" data-style="light-green" data-header="light"></li>
+    </ul>
+    <div style="margin-bottom:18px;"></div>
+    <div class="theme-heading">Layouts</div>
+    <div class="text-center">
+        <a href="javascript:void(0);" class="btn-u btn-u-green btn-block active-switcher-btn wide-layout-btn">Wide</a>
+        <a href="javascript:void(0);" class="btn-u btn-u-green btn-block boxed-layout-btn">Boxed</a>
+    </div>
+</div><!--/style-switcher-->
+<!--=== End Style Switcher ===-->    
+
+    <div class="wrapper">
+        <!--=== Header ===-->
+        <div class="header">
+            <!-- Topbar -->
+            <div class="topbar">
+                <div class="container">
+                    <!-- Topbar Navigation -->
+                    <ul class="loginbar pull-right">
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            <a>Languages</a>
+                            <ul class="lenguages">
+                                <li class="active">
+                                    <a href="#">English <i class="fa fa-check"></i></a>
+                                </li>
+                                <li><a href="#">Spanish</a></li>
+                                <li><a href="#">Russian</a></li>
+                                <li><a href="#">German</a></li>
+                            </ul>
+                        </li>
+                        <li class="topbar-devider"></li>
+                        <li><a href="page_faq.html">Help</a></li>
+                        <li class="topbar-devider"></li>
+                        <li><a href="page_login.html">Login</a></li>
+                    </ul>
+                    <!-- End Topbar Navigation -->
+                </div>
+            </div>
+            <!-- End Topbar -->
+            <!-- Navbar -->
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="fa fa-bars"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img id="logo-header" src="assets/img/logo1-default.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Home -->
+                            <li class="dropdown">
+                                <a href="index.html" class="dropdown-toggle">
+                                    Home
+                                </a>
+                            </li>
+                            <!-- End Home -->
+                            <!-- About Us -->
+                            <li class="dropdown">
+                                <a href="about.html" class="dropdown-toggle">
+                                    About Us
+                                </a>
+                            </li>
+                            <!-- About Us Pages -->
+                            <!-- Technology Pages -->
+                            <li class="dropdown">
+                                <a href="solutions.html" class="dropdown-toggle">
+                                    Solutions
+                                </a>
+                            </li>
+                            <!-- End Technology Pages -->
+                            <!-- Solutions -->
+                            <li class="dropdown">
+                                <a href="news.html" class="dropdown-toggle">
+                                    News
+                                </a>
+                            </li>
+                            <!-- End Solutions -->
+                            <!-- Careers -->
+                            <li class="dropdown active">
+                                <a href="careers.html" class="dropdown-toggle">
+                                    Careers
+                                </a>
+                            </li>
+                            <!-- End Careers -->
+                            <!-- Contacts -->
+                            <li class="dropdown">
+                                <a href="contact.html" class="dropdown-toggle">
+                                    Contacts
+                                </a>
+                            </li>
+                            <!-- End Contacts -->
+                            <!-- Search Block -->
+                            <li>
+                                <i class="search fa fa-search search-btn"></i>
+                                <div class="search-open">
+                                    <div class="input-group animated fadeInDown">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-btn">
+                                            <button class="btn-u" type="button">Go</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- End Search Block -->
+                        </ul>
+                    </div><!--/navbar-collapse-->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!--=== End Header ===-->
+        <!--=== Breadcrumbs ===-->
+        <div class="breadcrumbs">
+            <div class="container">
+                <h1 class="pull-left">Careers</h1>
+                <ul class="pull-right breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li class="active">Mobile/Front End Engineer/ App Developer</li>
+                </ul>
+            </div>
+        </div><!--/breadcrumbs-->
+        <!--=== End Breadcrumbs ===-->
+        <!--=== Job Description ===-->
+        <div class="job-description">
+            <div class="container content">
+                <div class="title-box-v2">
+                    <h2>want to work for a tech start-up, we're recruiting</h2>
+                    <p>Live Positions</p>
+
+                </div>
+                <div class="row">
+                    <!-- Left Inner -->
+                    <div class="col-md-7">
+                        <div class="left-inner">
+                            <img style="display:none;" src="assets/img/clients/walmart.png" alt="">
+                            <h3>Mobile/Front End Engineer/ App Developer</h3>
+                            <div class="overflow-h" style="display:none;">
+                                <p class="hex">Worldwide, 16,329 Employees, Bentonville, Arkansas</p>
+                                <div class="star-vote">
+                                    <ul class="list-inline">
+                                        <li><i class="color-green fa fa-star"></i></li>
+                                        <li><i class="color-green fa fa-star"></i></li>
+                                        <li><i class="color-green fa fa-star"></i></li>
+                                        <li><i class="color-green fa fa-star-half-o"></i></li>
+                                        <li><i class="color-green fa fa-star-o"></i></li>
+                                    </ul>
+                                </div>
+                                <span><a href="#">34 reviews</a></span>
+                            </div>
+
+                            <hr>
+
+                            <div class="progression" style="display:none;">
+                                <span>Revenue</span>
+                                <div class="progress progress-u progress-xs">
+                                    <div style="width: 88%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" role="progressbar" class="progress-bar progress-bar-u">
+                                    </div>
+                                </div>
+
+                                <span>Staff Salaries</span>
+                                <div class="progress progress-u progress-xs">
+                                    <div style="width: 76%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="76" role="progressbar" class="progress-bar progress-bar-u">
+                                    </div>
+                                </div>
+
+                                <span>Possibility of Dismissial</span>
+                                <div class="progress progress-u progress-xs">
+                                    <div style="width: 97%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="97" role="progressbar" class="progress-bar progress-bar-u">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <h2>Job Description</h2>
+                            <p>
+                                We are looking for an engineer with experience of iOS and Android to help us build compelling mobile products while maintaining simplicity and usability.
+                            </p>
+                            <p>
+                                You will be working as part of a new team and you’ll be given plenty of opportunity to learn and progress your career. You will be given the opportunity to develop through the full life cycle of development on their varying exciting products.
+                                Working on a commercial product, you must show an ability to acquire new skills quickly and an understanding of the software development life cycle.
+                            </p>
+                            <p>
+                                You’ll have an understanding of how well-engineered code can improve the experience of consumer apps and you’ll have a passion for building compelling products while maintaining simplicity and usability.
+                                You’ll have a Computer Science degree or equivalent experience and be able to write readable, well-documented code. Familiarity with OS-specific APIs and demonstrated experience launching production-ready code is a must.
+                            </p>
+                            <p>
+                                You’ll be able to provide specific examples of the applications you have developed in the past and demonstrate the technologies you have used to develop these. Intellectual exploration, entrepreneurial drive and the attitude to get high-quality projects done quickly complete your profile.
+                            </p>
+                            <hr>
+
+                            <h2>Your Task</h2>
+                            <p></p>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-check color-green"></i>Android and iOS development experience </li>
+                                <li><i class="fa fa-check color-green"></i>Backend server communication using JSON and XML </li>
+                                <li><i class="fa fa-check color-green"></i>Signing and submitting to Apple and Google stores</li>
+                                <li><i class="fa fa-check color-green"></i>Good project management skills </li>
+                                <li><i class="fa fa-check color-green"></i>The ability to work under pressure and meet deadlines </li>
+                                <li><i class="fa fa-check color-green"></i>The ability to communicate effectively and work in a small team</li>
+                                <li><i class="fa fa-check color-green"></i>Familiarity with working on commercial products and flexibility to adapt to changing requirements</li>
+                                <li><i class="fa fa-check color-green"></i>A creative approach to problem solving </li>
+                            </ul>
+
+                            <hr>
+
+                            <h2>Qualifications/Entry Requirements:</h2>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-check color-green"></i>You must have a degree or equivalent qualifications</li>
+                                <li><i class="fa fa-check color-green"></i>This can include a foundation degree or a BTEC/HNC/HND qualification</li>
+                                <li><i class="fa fa-check color-green"></i>Relevant subjects include Computer Science, IT, Software Development, Software Engineering, Business Information Systems</li>
+                            </ul>
+                            <hr>
+
+                            <h2>How to Apply</h2>
+                            <p>Email your CV and cover letter to Eleanor Barlow - <a href="mailto:contact@instantview.co">contact@instantview.co</a></p>
+                        </div>
+                    </div>
+
+                    <!-- End Left Inner -->
+                    <!-- Right Inner -->
+                    <div class="col-md-5">
+                        <div class="right-inner">
+                            <hr />
+                            <h3>All Current Positions</h3>
+                            <div class="people-say margin-bottom-20">
+                                <div class="overflow-h">
+                                    <span>Web and Mobile Engineering</span>
+                                    <p><a href="careers-mobile-front-end-developer.html">Mobile/Front End Engineer / App Developer</a></p>
+                                    <button type="button" class="btn-u btn-block" onclick="location = 'mailto:contact@instantview.co';"> Apply with Resume</button>
+
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="people-say margin-bottom-20">
+                                <div class="overflow-h">
+                                    <span>Web and Mobile Engineering</span>
+                                    <p><a href="careers-back-server-backend-systems-developer.html">Server / Backend Systems Developer</a></p>
+                                    <button type="button" class="btn-u btn-block" onclick="location = 'mailto:contact@instantview.co';"> Apply with Resume</button>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- End Right Inner -->
+                </div>
+            </div>
+        </div>
+        <!--=== End Job Description ===-->
+        <!--=== Footer ===-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <!-- About -->
+                        <div class="headline"><h2>About</h2></div>
+                        <p class="margin-bottom-25 md-margin-bottom-40">We are an innovative company and passionate about working with “Internet of Things” (IoT) technologies, providing world leading solutions</p>
+                        <!-- End About -->
+                        <!-- Monthly Newsletter -->
+                        <div class="headline"><h2>Monthly Newsletter</h2></div>
+                        <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
+                        <form class="footer-subsribe">
+                            <div class="input-group">
+                                <input type="text" id="email" class="form-control" placeholder="Email Address">
+                                <span class="input-group-btn">
+                                    <button onclick="javascript:sendEmail();" class="btn-u" type="button" data-toggle="modal" data-target="#myModal">Subscribe</button>
+                                </span>
+                            </div>
+                        </form>
+                        <!-- End Monthly Newsletter -->
+                    </div><!--/col-md-4-->
+
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <!-- Recent Blogs -->
+                        <div class="posts">
+                            <div class="headline"><h2>Recent News</h2></div>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/broadmarsh.jpg" alt=""></a></dt>
+                                <dd>
+                                    <p><a href="news.html">Instantview launch Locate Sense - Our mobile application, web dashboard, and Bluetooth Low Energy (BLE) Beacon...</a></p>
+                                </dd>
+                            </dl>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/department-for-business-innovation-skills.jpg" alt=""></a></dt>
+                                <dd>
+                                    <p><a href="news.html">Reimagining the High Street - Our proposal "Real time hyper location services to support the consumer's high street...</a></p>
+                                </dd>
+                            </dl>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/BreuGz6IYAE7BYf.jpg" alt=""></>a></dt>
+                                <dd>
+                                    <p><a href="news.html">Instantview graduates from the Growth 100- after a year of being part of Nottingham's growth 100 programme, Instantview has now... </a></p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <!-- End Recent Blogs -->
+                    </div><!--/col-md-4-->
+                    <div class="col-md-4">
+                        <!-- Contact Us -->
+                        <div class="headline"><h2>Contact Us</h2></div>
+                        <address class="md-margin-bottom-40">
+                            Instantview Ltd<br />
+                            Techhub, Campus London<br />
+                            5 Bonhill Street<br />
+                            London<br />
+                            EC2A 4BX, UK<br />
+                            Email: <a href="mailto:info@instantview.com" class="">contact@instantview.co</a>
+                        </address>
+                        <!-- End Contact Us -->
+                        <!-- Social Links -->
+                    <div class="headline"><h2>Stay Connected</h2></div> 
+                    <ul class="social-icons">
+                        <!--<li><a href="#" data-original-title="Feed" class="social_rss"></a></li>-->
+                        <li><a href="https://www.facebook.com/instantview" data-original-title="Facebook" class="social_facebook"></a></li>
+                        <li><a href="https://twitter.com/Instantview_Ltd" data-original-title="Twitter" class="social_twitter"></a></li>
+                        <!--<li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>-->
+                        <li><a href="http://www.pinterest.com/instantview/" data-original-title="Pinterest" class="social_pintrest"></a></li>
+                        <li><a href="https://www.linkedin.com/company/instantview" data-original-title="Linkedin" class="social_linkedin"></a></li>
+                        <!--<li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>-->
+                    </ul>
+                    <!-- End Social Links -->
+                    </div><!--/col-md-4-->
+                </div>
+            </div>
+        </div><!--/footer-->
+        <!--=== End Footer ===-->
+        <!--=== Copyright ===-->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            2014 &copy; Instantview Ltd. All Rights Reserved.
+                            <a href="policy_terms.html" target="_blank">Privacy Policy</a> | <a href="policy_terms.html" target="_blank">Terms of Service</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <a>  <img class="pull-right" id="ssss" src="assets/img/logotrans.png" style="width:200px;" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </div><!--/copyright-->
+        <!--=== End Copyright ===-->
+    </div><!--/wrapper-->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Monthly Newsletter</h4>
+                </div>
+                <div class="modal-body">
+                    You have now been successfully added to our monthly newsletter subscription.<br /><br />
+                    Kind regards, The Instantview Team
+                    <div style="text-align:right; display:none;"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/newletter.js"></script>
+
+<!-- JS Global Compulsory -->           
+<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="assets/plugins/circles-master/circles.js"></script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/plugins/circles-master.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        CirclesMaster.initCirclesMaster1();
+    });
+</script>
+ <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+<![endif]-->
+
+</body>
+</html> 

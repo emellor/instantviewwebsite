@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Welcome Instantview</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+
+    <!-- CSS Page Style -->    
+    <link rel="stylesheet" href="assets/css/pages/feature_timeline1.css">
+
+    <!-- CSS Theme -->    
+    <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
+    
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>	
+
+<body>
+<!--=== Style Switcher ===-->    
+<i class="style-switcher-btn fa fa-cogs hidden-xs"></i>
+<div class="style-switcher animated fadeInRight">
+    <div class="theme-close"><i class="icon-close"></i></div>
+    <div class="theme-heading">Theme Colors</div>
+    <ul class="list-unstyled">
+        <li class="theme-default theme-active" data-style="default" data-header="light"></li>
+        <li class="theme-blue" data-style="blue" data-header="light"></li>
+        <li class="theme-orange" data-style="orange" data-header="light"></li>
+        <li class="theme-red" data-style="red" data-header="light"></li>
+        <li class="theme-light last" data-style="light" data-header="light"></li>
+
+        <li class="theme-purple" data-style="purple" data-header="light"></li>
+        <li class="theme-aqua" data-style="aqua" data-header="light"></li>
+        <li class="theme-brown" data-style="brown" data-header="light"></li>
+        <li class="theme-dark-blue" data-style="dark-blue" data-header="light"></li>
+        <li class="theme-light-green last" data-style="light-green" data-header="light"></li>
+    </ul>
+    <div style="margin-bottom:18px;"></div>
+    <div class="theme-heading">Layouts</div>
+    <div class="text-center">
+        <a href="javascript:void(0);" class="btn-u btn-u-green btn-block active-switcher-btn wide-layout-btn">Wide</a>
+        <a href="#" class="btn-u btn-u-green btn-block boxed-layout-btn">Boxed</a>
+    </div>
+</div><!--/style-switcher-->
+<!--=== End Style Switcher ===-->    
+
+    <div class="wrapper">
+        <!--=== Header ===-->
+        <div class="header">
+            <!-- Topbar -->
+            <div class="topbar">
+                <div class="container">
+                    <!-- Topbar Navigation -->
+                    <ul class="loginbar pull-right">
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            <a>Languages</a>
+                            <ul class="lenguages">
+                                <li class="active">
+                                    <a href="#">English <i class="fa fa-check"></i></a>
+                                </li>
+                                <li><a href="#">Spanish</a></li>
+                                <li><a href="#">Russian</a></li>
+                                <li><a href="#">German</a></li>
+                            </ul>
+                        </li>
+                        <li class="topbar-devider"></li>
+                        <li><a href="page_faq.html">Help</a></li>
+                        <li class="topbar-devider"></li>
+                        <li><a href="page_login.html">Login</a></li>
+                    </ul>
+                    <!-- End Topbar Navigation -->
+                </div>
+            </div>
+            <!-- End Topbar -->
+            <!-- Navbar -->
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="fa fa-bars"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img id="logo-header" src="assets/img/logo1-default.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Home -->
+                            <li class="dropdown ">
+                                <a href="index.html" class="dropdown-toggle">
+                                    Home
+                                </a>
+                            </li>
+                            <!-- End Home -->
+                            <!-- About Us -->
+                            <li class="dropdown">
+                                <a href="about.html" class="dropdown-toggle">
+                                    About Us
+                                </a>
+                            </li>
+                            <!-- About Us Pages -->
+                            <!-- Technology Pages -->
+                            <li class="dropdown">
+                                <a href="solutions.html" class="dropdown-toggle">
+                                    Solutions
+                                </a>
+                            </li>
+                            <!-- End Technology Pages -->
+                            <!-- News -->
+                            <li class="dropdown active">
+                                <a href="news.html" class="dropdown-toggle">
+                                    News
+                                </a>
+                            </li>
+                            <!-- End Solutions -->
+                            <!-- Careers -->
+                            <li class="dropdown">
+                                <a href="careers.html" class="dropdown-toggle">
+                                    Careers
+                                </a>
+                            </li>
+                            <!-- End Careers -->
+                            <!-- Contacts -->
+                            <li class="dropdown">
+                                <a href="contact.html" class="dropdown-toggle">
+                                    Contacts
+                                </a>
+                            </li>
+                            <!-- End Contacts -->
+                            <!-- Search Block -->
+                            <li>
+                                <i class="search fa fa-search search-btn"></i>
+                                <div class="search-open">
+                                    <div class="input-group animated fadeInDown">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-btn">
+                                            <button class="btn-u" type="button">Go</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- End Search Block -->
+                        </ul>
+                    </div><!--/navbar-collapse-->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!--=== End Header ===-->
+        <!--=== Breadcrumbs ===-->
+        <div class="breadcrumbs">
+            <div class="container">
+
+                <h1 class="pull-left">News</h1>
+                <ul class="pull-right breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">News</li>
+                </ul>
+            </div>
+        </div><!--/breadcrumbs-->
+        <!--=== End Breadcrumbs ===-->
+        <!--=== Content Part ===-->
+        <div class="container content">
+            <ul class="timeline-v1">
+                <li>
+                    <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="assets/img/timeline/broadmarsh.jpg" alt="" />
+                        </div>
+                        <div class="timeline-body text-justify">
+                            
+                            <h2><a href="#">Instantview launch Locate Sense</a></h2>
+                            <p>Our mobile application, web dashboard, and Bluetooth Low Energy (BLE) Beacon solution provides customers with real-time, location based targeted offers. Retailers may install a number of BLE Beacons in their stores to enable push notifications to be sent to a consumer's smartphone. The app running on the consumer's smartphone will listen for BLE signals and retrieve the appropriate notification message.</p>
+                            <!--
+                            <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            -->
+                        </div>
+                        <div class="timeline-footer">
+                            <ul class="list-unstyled list-inline blog-info">
+                                <li><i class="fa fa-clock-o"></i> August 2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="assets/img/timeline/department-for-business-innovation-skills.jpg" alt="" />
+                        </div>
+                        <div class="timeline-body text-justify">
+                            
+                            <h2><a href="#">Reimagining the High Street</a></h2>
+                            <p>Our proposal "Real time hyper location services to support the consumer's high street experience" is one of the winners of the Reimagining the High Street competition. We'll be developing location-based (iBeacon) services that'll track shoppers during their high street experience so that retailers may push information, recommendations and offers to potential customers. If you've an interest in tech and retail marketing, and would like experience with our games developer and fashion start-up partners in Nottingham / Tech City, please drop us a line.</p>
+                            <!--
+                            <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            -->
+                        </div>
+                        <div class="timeline-footer">
+                            <ul class="list-unstyled list-inline blog-info">
+                                <li><i class="fa fa-clock-o"></i> June, 2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge primarya"><i class="glyphicon glyphicon-record"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="assets/img/timeline/BreuGz6IYAE7BYf.jpg" alt="" />
+                        </div>
+                        <div class="timeline-body text-justify">
+                            
+                            <h2><a href="#">Instantview graduates from the Growth 100</a></h2>
+                            <p>After a year of being part of Nottingham's Growth 100 programme, Instantview have now successfully completed the course. On the 10th of March 2014, a graduation ceremony took place at the University of Nottingham to celebrate the success of its members. With help and advice from the programmes mentors and coaches, Instantview has now been able to take advantage of numerous business opportunities, expand the workforce, and become part of London's exciting Tech City scene.</p>
+                            <!--
+                            <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            -->
+                        </div>
+                        <div class="timeline-footer">
+                            <ul class="list-unstyled list-inline blog-info">
+                                <li><i class="fa fa-clock-o"></i> March, 2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="assets/img/timeline/safe_image.jpg" alt="" />
+                        </div>
+                        <div class="timeline-body text-justify">
+                            
+                            <h2><a href="#">Instantview at Techhub Google Campus</a></h2>
+                            <p>You can now meet us at Techhub, in Google Campus, right at the centre of London's Tech City. TechHub is a unique environment where technology startups can start up faster. As they say "By getting the right people together in a physical space, good things happen".</p>
+                            <!--
+                            <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            -->
+                        </div>
+                        <div class="timeline-footer">
+                            <ul class="list-unstyled list-inline blog-info">
+                                <li><i class="fa fa-clock-o"></i> February, 2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="assets/img/timeline/ES Competition.png" alt="" />
+                        </div>
+                        <div class="timeline-body text-justify">
+                            
+                            <h2><a href="#">European Satellite Navigation Competitions</a></h2>
+                            <p>Instantview's proposal of Real-time event capture and decision making using first responder, crowd sourced and High Resolution Earth Observation data was recognised in both European Satellite Navigation and Copernicus Masters Competitions this year. The idea, which adds near real-time high-resolution images and satellite communications to our Accident Assessor service, supports first responders and loss adjusters in times of crisis. The proposal was a finalist for the GSA's most promising EGNOS Application Idea and the European Space Imaging High-Res Challenge.</p>
+                            <!--
+                            <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            -->
+                        </div>
+                        <div class="timeline-footer primary">
+                            <ul class="list-unstyled list-inline blog-info">
+                                <li><i class="fa fa-clock-o"></i> October, 2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="assets/img/timeline/s300_Tech-inspired_comp_27272011.png" alt="" />
+                        </div>
+                        <div class="timeline-body">
+                            
+                            <h2><a href="#">Instantview wins Technology Strategy Board funding</a></h2>
+                            <p>Following on from incubation at the ESA BIC in Harwell, Instantview's won a Technology Strategy Board SMART award to develop the next stage of our motor claim service. The support will help the company to develop its Accident Assessor service and allow us to further grow the team.</p>
+                            <!--
+                            <a class="btn-u" href="#">Read More</a>
+                            -->
+                        </div>
+                        <div class="timeline-footer primary">
+                            <ul class="list-inline">
+                                <li><i class="fa fa-clock-o"></i> June, 2013</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="clearfix" style="float: none;"></li>
+            </ul>
+        </div><!--/container-->
+        <!-- End Content Part -->
+        <!--=== Footer ===-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <!-- About -->
+                        <div class="headline"><h2>About</h2></div>
+                        <p class="margin-bottom-25 md-margin-bottom-40">We are an innovative company and passionate about working with “Internet of Things” (IoT) technologies, providing world leading solutions</p>
+                        <!-- End About -->
+                        <!-- Monthly Newsletter -->
+                        <div class="headline"><h2>Monthly Newsletter</h2></div>
+                        <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
+                        <form class="footer-subsribe">
+                            <div class="input-group">
+                                <input type="text" id="email" class="form-control" placeholder="Email Address">
+                                <span class="input-group-btn">
+                                    <button onclick="javascript:sendEmail();" class="btn-u" type="button" data-toggle="modal" data-target="#myModal">Subscribe</button>
+                                </span>
+                            </div>
+                        </form>
+                        <!-- End Monthly Newsletter -->
+                    </div><!--/col-md-4-->
+
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <!-- Recent Blogs -->
+                        <div class="posts">
+                            <div class="headline"><h2>Recent News</h2></div>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/broadmarsh.jpg" alt=""></a></dt>
+                                <dd>
+                                    <p><a href="news.html">Instantview launch Locate Sense - Our mobile application, web dashboard, and Bluetooth Low Energy (BLE) Beacon...</a></p>
+                                </dd>
+                            </dl>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/department-for-business-innovation-skills.jpg" alt=""></a></dt>
+                                <dd>
+                                    <p><a href="news.html">Reimagining the High Street - Our proposal "Real time hyper location services to support the consumer's high street...</a></p>
+                                </dd>
+                            </dl>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/BreuGz6IYAE7BYf.jpg" alt=""></>a></dt>
+                                <dd>
+                                    <p><a href="news.html">Instantview graduates from the Growth 100- after a year of being part of Nottingham's growth 100 programme, Instantview has now... </a></p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <!-- End Recent Blogs -->
+                    </div><!--/col-md-4-->
+                    <div class="col-md-4">
+                        <!-- Contact Us -->
+                        <div class="headline"><h2>Contact Us</h2></div>
+                        <address class="md-margin-bottom-40">
+                            Instantview Ltd<br />
+                            Techhub, Campus London<br />
+                            5 Bonhill Street<br />
+                            London<br />
+                            EC2A 4BX, UK<br />
+                            Email: <a href="mailto:info@instantview.com" class="">contact@instantview.co</a>
+                        </address>
+                        <!-- End Contact Us -->
+                        <!-- Social Links -->
+                    <div class="headline"><h2>Stay Connected</h2></div> 
+                    <ul class="social-icons">
+                        <!--<li><a href="#" data-original-title="Feed" class="social_rss"></a></li>-->
+                        <li><a href="https://www.facebook.com/instantview" data-original-title="Facebook" class="social_facebook"></a></li>
+                        <li><a href="https://twitter.com/Instantview_Ltd" data-original-title="Twitter" class="social_twitter"></a></li>
+                        <!--<li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>-->
+                        <li><a href="http://www.pinterest.com/instantview/" data-original-title="Pinterest" class="social_pintrest"></a></li>
+                        <li><a href="https://www.linkedin.com/company/instantview" data-original-title="Linkedin" class="social_linkedin"></a></li>
+                        <!--<li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>-->
+                    </ul>
+                    <!-- End Social Links -->
+                    </div><!--/col-md-4-->
+                </div>
+            </div>
+        </div><!--/footer-->
+        <!--=== End Footer ===-->
+        <!--=== Copyright ===-->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            2014 &copy; Instantview Ltd. All Rights Reserved.
+                            <a href="policy_terms.html" target="_blank">Privacy Policy</a> | <a href="policy_terms.html" target="_blank">Terms of Service</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <a>  <img class="pull-right" id="ssss" src="assets/img/logotrans.png" style="width:200px;" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </div><!--/copyright-->
+        <!--=== End Copyright ===-->
+    </div><!--/wrapper-->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Monthly Newsletter</h4>
+                </div>
+                <div class="modal-body">
+                    You have now been successfully added to our monthly newsletter subscription.<br /><br />
+                    Kind regards, The Instantview Team
+                    <div style="text-align:right; display:none;"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/newletter.js"></script>
+
+<!-- JS Global Compulsory -->			
+<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+<![endif]-->
+
+</body>
+</html>	

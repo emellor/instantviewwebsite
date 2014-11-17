@@ -1,0 +1,655 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Welcome Instantview</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+      <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">     
+    <link rel="stylesheet" href="assets/plugins/bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" href="assets/plugins/fancybox/source/jquery.fancybox.css"> 
+    <link rel="stylesheet" href="assets/plugins/revolution-slider/examples/rs-plugin/css/settings.css">
+
+    <!-- CSS Pages Style -->    
+    <link rel="stylesheet" href="assets/css/pages/page_one.css">
+
+    <!-- CSS Theme -->    
+    <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>	
+
+<body>
+<!--=== Style Switcher ===-->    
+<i class="style-switcher-btn fa fa-cogs hidden-xs"></i>
+<div class="style-switcher animated fadeInRight">
+    <div class="theme-close"><i class="icon-close"></i></div>
+    <div class="theme-heading">Theme Colors</div>
+    <ul class="list-unstyled">
+        <li class="theme-default theme-active" data-style="default" data-header="light"></li>
+        <li class="theme-blue" data-style="blue" data-header="light"></li>
+        <li class="theme-orange" data-style="orange" data-header="light"></li>
+        <li class="theme-red" data-style="red" data-header="light"></li>
+        <li class="theme-light last" data-style="light" data-header="light"></li>
+
+        <li class="theme-purple" data-style="purple" data-header="light"></li>
+        <li class="theme-aqua" data-style="aqua" data-header="light"></li>
+        <li class="theme-brown" data-style="brown" data-header="light"></li>
+        <li class="theme-dark-blue" data-style="dark-blue" data-header="light"></li>
+        <li class="theme-light-green last" data-style="light-green" data-header="light"></li>
+    </ul>
+    <div style="margin-bottom:18px;"></div>
+    <div class="theme-heading">Layouts</div>
+    <div class="text-center">
+        <a href="javascript:void(0);" class="btn-u btn-u-green btn-block active-switcher-btn wide-layout-btn">Wide</a>
+        <a href="#" class="btn-u btn-u-green btn-block boxed-layout-btn">Boxed</a>
+    </div>
+</div><!--/style-switcher-->
+<!--=== End Style Switcher ===-->    
+
+    <div class="wrapper">
+        <!--=== Header ===-->
+        <div class="header">
+            <!-- Topbar -->
+            <div class="topbar">
+                <div class="container">
+                    <!-- Topbar Navigation -->
+                    <ul class="loginbar pull-right">
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            <a>Languages</a>
+                            <ul class="lenguages">
+                                <li class="active">
+                                    <a href="#">English <i class="fa fa-check"></i></a>
+                                </li>
+                                <li><a href="#">Spanish</a></li>
+                                <li><a href="#">Russian</a></li>
+                                <li><a href="#">German</a></li>
+                            </ul>
+                        </li>
+                        <li class="topbar-devider"></li>
+                        <li><a href="page_faq.html">Help</a></li>
+                        <li class="topbar-devider"></li>
+                        <li><a href="page_login.html">Login</a></li>
+                    </ul>
+                    <!-- End Topbar Navigation -->
+                </div>
+            </div>
+            <!-- End Topbar -->
+            <!-- Navbar -->
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="fa fa-bars"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img id="logo-header" src="assets/img/logo1-default.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Home -->
+                            <li class="dropdown">
+                                <a href="index.html" class="dropdown-toggle">
+                                    Home
+                                </a>
+                            </li>
+                            <!-- End Home -->
+                            <!-- About Us -->
+                            <li class="dropdown">
+                                <a href="about.html" class="dropdown-toggle">
+                                    About Us
+                                </a>
+                            </li>
+                            <!-- About Us Pages -->
+                            <!-- Technology Pages -->
+                            <li class="dropdown active">
+                                <a href="javascript:void()" class="dropdown-toggle" data-toggle="dropdown">
+                                    Solutions
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="context_aware_retail.html">Retail Beacons</a></li>
+                                    <li><a href="accident_assessor.html">Insurance</a></li>
+                                </ul>
+                                <!-- End Technology Pages -->
+                                <!-- Solutions -->
+                            <li class="dropdown">
+                                <a href="news.html" class="dropdown-toggle">
+                                    News
+                                </a>
+                            </li>
+                            <!-- End Solutions -->
+                            <!-- Careers -->
+                            <li class="dropdown">
+                                <a href="careers.html" class="dropdown-toggle">
+                                    Careers
+                                </a>
+                            </li>
+                            <!-- End Careers -->
+                            <!-- Contacts -->
+                            <li class="dropdown">
+                                <a href="contact.html" class="dropdown-toggle">
+                                    Contacts
+                                </a>
+                            </li>
+                            <!-- End Contacts -->
+                            <!-- Search Block -->
+                            <li>
+                                <i class="search fa fa-search search-btn"></i>
+                                <div class="search-open">
+                                    <div class="input-group animated fadeInDown">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-btn">
+                                            <button class="btn-u" type="button">Go</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- End Search Block -->
+                        </ul>
+                    </div><!--/navbar-collapse-->
+                </div>
+            </div>
+            <!-- End Navbar -->
+        </div>
+        <!--=== End Header ===-->
+        <!--=== Slider ===-->
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+                <ul>
+                    <!-- SLIDE -->
+                    <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/img/sliders/1.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption revolution-ch1 sft start"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="100"
+                             data-speed="1500"
+                             data-start="500"
+                             data-easing="Back.easeInOut"
+                             data-endeasing="Power1.easeIn"
+                             data-endspeed="300">
+                            Capturing Essential Information Accurately
+                        </div>
+
+                        <!-- LAYER -->
+                        <div class="tp-caption revolution-ch2 sft"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="190"
+                             data-speed="1400"
+                             data-start="2000"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">
+                            Capture claim information automatically and <br />
+                            quickening the claims process
+                        </div>
+
+                        <!-- LAYER -->
+                        <!--
+                        <div class="tp-caption sft"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="310"
+                             data-speed="1600"
+                             data-start="2800"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">
+                            <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
+                            <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a>
+                        </div>
+                        -->
+                    </li>
+                    <!-- END SLIDE -->
+                    
+                    <!-- SLIDE -->
+                    <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/img/sliders/2.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption revolution-ch1 sft start"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="100"
+                             data-speed="1500"
+                             data-start="500"
+                             data-easing="Back.easeInOut"
+                             data-endeasing="Power1.easeIn"
+                             data-endspeed="300">
+                            Simple to use mobile app
+                        </div>
+
+                        <!-- LAYER -->
+                        <div class="tp-caption revolution-ch2 sft"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="190"
+                             data-speed="1400"
+                             data-start="2000"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">
+                            Provides tips on how to take effective <br />
+                            photos of the accident and damage 
+                        </div>
+
+                        <!-- LAYER -->
+                        <!--
+                        <div class="tp-caption sft"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="310"
+                             data-speed="1600"
+                             data-start="2800"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">
+                            <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
+                            <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a>
+                        </div>
+                        -->
+                    </li>
+                    <!-- END SLIDE -->
+                    
+                    <!-- SLIDE -->
+                    <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/img/sliders/3.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption revolution-ch1 sft start"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="100"
+                             data-speed="1500"
+                             data-start="500"
+                             data-easing="Back.easeInOut"
+                             data-endeasing="Power1.easeIn"
+                             data-endspeed="300">
+                            Cloud-based solution
+                        </div>
+
+                        <!-- LAYER -->
+                        <div class="tp-caption revolution-ch2 sft"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="190"
+                             data-speed="1400"
+                             data-start="2000"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">
+                            Improve claim tracking, reduce the costs of claims handling  <br />
+                            and improve customer service
+                        </div>
+
+                        <!-- LAYER -->
+                        <!--
+                        <div class="tp-caption sft"
+                             data-x="center"
+                             data-hoffset="0"
+                             data-y="310"
+                             data-speed="1600"
+                             data-start="2800"
+                             data-easing="Power4.easeOut"
+                             data-endspeed="300"
+                             data-endeasing="Power1.easeIn"
+                             data-captionhidden="off"
+                             style="z-index: 6">
+                            <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
+                            <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a>
+                        </div>
+                        -->
+                    </li>
+                    <!-- END SLIDE -->
+                </ul>
+                <div class="tp-bannertimer tp-bottom"></div>
+            </div>
+        </div>
+        <!--=== End Slider ===-->
+        <!--=== Purchase Block ===-->
+        <div class="purchase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 animated fadeInLeft">
+                        <span>Capturing Essential Information Accurately</span>
+                        <p>Accident Assessor brings together much of the claim information automatically, reducing the costs of manual claims handling, and quickening the claims process</p>
+                    </div>
+                    <div class="col-md-3 btn-buy animated fadeInRight">
+                        <p><a class="btn-u btn-u-small" href="contact.html"><i class="fa fa-plus-sign"></i>Contact Us</a></p>
+                    </div>
+                </div>
+            </div>
+        </div><!--/row-->
+        <!-- End Purchase Block -->
+        <!--=== Content Part ===-->
+        <div class="one-page">
+            <div class="one-page-inner one-default">
+                <div class="container">
+                    
+                    <h1>Simple to use app</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>By following the guidelines on the app you can collect the details you need quickly. </p>
+                            <p>Accident Notes presents you with a structured form to help you collect accident details, witness/party details, and more. It also provides you with tips on how to take effective photos of the accident and damage. </p>
+                            
+                            <a class="btn-u btn-u-green one-page-btn"><i class="fa fa-bolt"></i> Simple, clear guidelines help you collect the information you need.</a>
+                           
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/img/new/img51.png" class="img-responsive margin-bottom-10" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-page-inner one-blue">
+                <div class="container">
+                    
+                    <h1>Capture accurate information in real-time</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/img/new/img11.png" class="margin-bottom-10 img-responsive" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Our app allows you to collect geo-location data such as date, time, location, weather, and traffic conditions regarding the accident in real-time at the side of the road.</p>
+                            <p>Through photographic evidence you can also retrieve third party vehicle details using automatic number plate recognition and take photos of vehicle damage to support your claim. The app does all the hard work for you!</p>    
+                            <a class="btn-u btn-u-red one-page-btn"><i class="fa fa-bell"></i>Automatic notes add the date &Aacute; time together with the location on a map.</a>         
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-page-inner one-grey">
+                <div class="container">
+                    
+                    <h1>Complete the report in your own time</h1>
+                    <div class="row margin-bottom-40">
+                        <div class="col-md-6">
+                            <p>If you don’t have connection to the internet when using the app, Accident Notes will store your information and the claim will be sent off when coverage has been restored. </p>
+                            <p>If it is not safe to complete and send of the form at the accident scene, you may want to complete this in a more comfortable environment. </p>
+                            
+                            <a class="btn-u btn-u-blue one-page-btn"><i class="fa fa-bullhorn"></i>Record vehicle damage &Aacute; photographs</a>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/img/new/img71.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="one-page-inner one-red">
+                <div class="container">
+
+                    <h1>Accident blackspots and fraud detection  </h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/img/new/img161.png" class="img-responsive margin-bottom-10" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Our server collects third party data from the DVLA and MET office to provide supplementary information to the claim provided by the motorist. </p>
+                            <p>If the information provided by third party data providers differs from that of the claim, you can identify areas of fraudulent activity in real-time. By detecting fraud at an early stage you can save money on the payout.</p>
+
+
+                            <!--<a class="btn-u btn-u-red one-page-btn"><i class="fa fa-thumbs-up"></i></a>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="one-page-inner one-grey">
+                <div class="container">
+                    
+                    <h1>White-label app</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Insurers can benefit from our white label app offering. You can have your own branded app and exclusivity with this solution. </p>
+                            <p>It gives you an opportunity to tailor the app to target your own audience whilst strengthening brand image. Take advantage of this service today and become more connected to your customers. </p>
+                            <!--
+                            <a class="btn-u btn-u-green one-page-btn"><i class="fa fa-comments-o"></i> libero adipiscing</a>
+                            -->
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/img/new/img10.jpg" class="img-responsive margin-bottom-10" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-page-inner one-green">
+                <div class="container">
+                    
+                    <h1>Accident blackspots and fraud detection  </h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/img/new/img161.png" class="img-responsive margin-bottom-10" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Our server collects third party data from the DVLA and MET office to provide supplementary information to the claim provided by the motorist. </p>
+                            <p>If the information provided by third party data providers differs from that of the claim, you can identify areas of fraudulent activity in real-time. By detecting fraud at an early stage you can save money on the payout. </p>
+                            
+                          
+                            <!--<a class="btn-u btn-u-red one-page-btn"><i class="fa fa-thumbs-up"></i></a>-->
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-page-inner one-grey">
+                <div class="container">
+
+                    <h1>Accident blackspots and fraud detection  </h1>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3 class="heading-sm"><a href="#">Simple to use app</a></h3>
+                                <p>Presents you with a structured form to help you collect accident details, witness/party details, and more. It also provides you with tips on how to take effective photos of the accident and damage</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h3 class="heading-sm"><a href="#">Reduces costs</a></h3>
+                                <p>Brings together much of the claim information automatically, reducing the costs of manual claims handling, and quickening the claims process</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h3 class="heading-sm"><a href="#">Combats fraud</a></h3>
+                                <p>Provides insurers with signs of potential fraud, through photographic evidence of the number of passengers in a vehicle, evidence of vehicle positions, skid marks, and first and third party damage</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h3 class="heading-sm"><a href="#">Cloud-based solution</a></h3>
+                                <p>Economies of scale from shared resources, a scalable pay-as-you-grow model, and ubiquitous access, where you can access the data from anywhere at any time</p>
+                            </div>
+                        </div>
+                    <hr>
+                </div>
+            </div>
+
+
+
+        </div><!--/one-page-->
+        <!-- End Content Part -->
+        <!--=== Footer ===-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <!-- About -->
+                        <div class="headline"><h2>About</h2></div>
+                        <p class="margin-bottom-25 md-margin-bottom-40">We are an innovative company and passionate about working with “Internet of Things” (IoT) technologies, providing world leading solutions</p>
+                        <!-- End About -->
+                        <!-- Monthly Newsletter -->
+                        <div class="headline"><h2>Monthly Newsletter</h2></div>
+                        <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
+                        <form class="footer-subsribe">
+                            <div class="input-group">
+                                <input type="text" id="email" class="form-control" placeholder="Email Address">
+                                <span class="input-group-btn">
+                                    <button onclick="javascript:sendEmail();" class="btn-u" type="button" data-toggle="modal" data-target="#myModal">Subscribe</button>
+                                </span>
+                            </div>
+                        </form>
+                        <!-- End Monthly Newsletter -->
+                    </div><!--/col-md-4-->
+
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <!-- Recent Blogs -->
+                        <div class="posts">
+                            <div class="headline"><h2>Recent News</h2></div>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/broadmarsh.jpg" alt=""></a></dt>
+                                <dd>
+                                    <p><a href="news.html">Instantview launch Locate Sense - Our mobile application, web dashboard, and Bluetooth Low Energy (BLE) Beacon...</a></p>
+                                </dd>
+                            </dl>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/department-for-business-innovation-skills.jpg" alt=""></a></dt>
+                                <dd>
+                                    <p><a href="news.html">Reimagining the High Street - Our proposal "Real time hyper location services to support the consumer's high street...</a></p>
+                                </dd>
+                            </dl>
+                            <dl class="dl-horizontal">
+                                <dt><a href="news.html"><img src="assets/img/timeline/BreuGz6IYAE7BYf.jpg" alt=""></>a></dt>
+                                <dd>
+                                    <p><a href="news.html">Instantview graduates from the Growth 100- after a year of being part of Nottingham's growth 100 programme, Instantview has now... </a></p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <!-- End Recent Blogs -->
+                    </div><!--/col-md-4-->
+                    <div class="col-md-4">
+                        <!-- Contact Us -->
+                        <div class="headline"><h2>Contact Us</h2></div>
+                        <address class="md-margin-bottom-40">
+                            Instantview Ltd<br />
+                            Techhub, Campus London<br />
+                            5 Bonhill Street<br />
+                            London<br />
+                            EC2A 4BX, UK<br />
+                            Email: <a href="mailto:info@instantview.com" class="">contact@instantview.co</a>
+                        </address>
+                        <!-- End Contact Us -->
+                        <!-- Social Links -->
+                    <div class="headline"><h2>Stay Connected</h2></div> 
+                    <ul class="social-icons">
+                        <!--<li><a href="#" data-original-title="Feed" class="social_rss"></a></li>-->
+                        <li><a href="https://www.facebook.com/instantview" data-original-title="Facebook" class="social_facebook"></a></li>
+                        <li><a href="https://twitter.com/Instantview_Ltd" data-original-title="Twitter" class="social_twitter"></a></li>
+                        <!--<li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>-->
+                        <li><a href="http://www.pinterest.com/instantview/" data-original-title="Pinterest" class="social_pintrest"></a></li>
+                        <li><a href="https://www.linkedin.com/company/instantview" data-original-title="Linkedin" class="social_linkedin"></a></li>
+                        <!--<li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>-->
+                    </ul>
+                    <!-- End Social Links -->
+                    </div><!--/col-md-4-->
+                </div>
+            </div>
+        </div><!--/footer-->
+        <!--=== End Footer ===-->
+        <!--=== Copyright ===-->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            2014 &copy; Instantview Ltd. All Rights Reserved.
+                            <a href="policy_terms.html" target="_blank">Privacy Policy</a> | <a href="policy_terms.html" target="_blank">Terms of Service</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <a>  <img class="pull-right" id="ssss" src="assets/img/logotrans.png" style="width:200px;" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </div><!--/copyright-->
+        <!--=== End Copyright ===-->
+    </div><!--/wrapper-->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Monthly Newsletter</h4>
+                </div>
+                <div class="modal-body">
+                    You have now been successfully added to our monthly newsletter subscription.<br /><br />
+                    Kind regards, The Instantview Team
+                    <div style="text-align:right; display:none;"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/newletter.js"></script>
+
+<!-- JS Global Compulsory -->			
+<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<!-- JS Implementing Plugins -->           
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+<script type="text/javascript" src="assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/pages/index.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        App.initFancybox();
+        Index.initRevolutionSlider();                                
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+<![endif]-->
+
+</body>
+</html>	
